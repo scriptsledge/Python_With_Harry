@@ -1,4 +1,5 @@
 # Dictionary: stores key-value pairs, allowing efficient value retrieval by unique keys
+d = {} # Empty dictionary
 marks = {
     "Asmit": 70,
     "Prasoon": 70,
