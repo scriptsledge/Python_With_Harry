@@ -1,13 +1,15 @@
 marks = int(input("Enter your marks:"))
-if (marks<50):
+
+# Check ranges to assign a grade based on marks
+if marks < 50:
     print("Your grade is: F")
-elif (marks<60):
+elif marks < 60:
     print("Your grade is: D")
-elif (marks<70):
+elif marks < 70:
     print("Your grade is: C")
-elif (marks<80):
+elif marks < 80:
     print("Your grade is: B")
-elif (marks<90):
+elif marks < 90:
     print("Your grade is: A")
-else :
+else:
     print("Your grade is: Ex")
