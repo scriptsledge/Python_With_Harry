@@ -11,7 +11,7 @@ you = youDict.get(youStr, None)
 
 # Validate user input
 if you is None:
-    print("Invalid input! Please enter 's', 'w', or 'g'.")
+    print("Invalid input!\nPlease enter 's', 'w', or 'g'.")
 else:
     # Display choices made by both the computer and the user
     print(f"Computer chose {reverseDict[computer]}\nYou chose {reverseDict[you]}")
